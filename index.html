@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IPTV 源订阅</title>
+<style>
+:root{--bg:#0b0f17;--card:#141b27;--line:#222c3d;--fg:#e8edf5;--dim:#8796ad;--accent:#4d9fff;}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--fg);font:15px/1.6 -apple-system,"PingFang SC","Microsoft YaHei",sans-serif;
+padding:28px 18px 60px;max-width:760px;margin:0 auto;-webkit-font-smoothing:antialiased}
+h1{font-size:23px;letter-spacing:.3px;margin-bottom:6px}
+.sub{color:var(--dim);font-size:13px;margin-bottom:26px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 18px;margin-bottom:14px}
+.row{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+.dot{width:9px;height:9px;border-radius:50%;flex:0 0 auto}
+.nm{font-size:15px;font-weight:600;word-break:break-all}
+.meta{color:var(--dim);font-size:12px;margin-top:2px}
+.acts{display:flex;gap:9px;flex-wrap:wrap}
+a.btn{flex:1;min-width:104px;text-align:center;text-decoration:none;padding:10px 12px;border-radius:9px;
+font-size:13.5px;font-weight:600;transition:.18s;border:1px solid var(--line);color:var(--fg);background:#1b2434}
+a.btn:hover{background:#22304a;border-color:var(--accent)}
+a.btn.p{background:var(--accent);border-color:var(--accent);color:#06101f}
+a.btn.p:hover{filter:brightness(1.1)}
+.url{background:#0e1420;border:1px dashed var(--line);border-radius:9px;padding:9px 11px;
+font:12px/1.5 ui-monospace,Menlo,monospace;color:#9fb4d0;word-break:break-all;margin-top:10px}
+.note{color:var(--dim);font-size:12.5px;margin-top:26px;line-height:1.75;border-left:2px solid var(--line);padding-left:12px}
+</style>
+</head>
+<body>
+<h1>IPTV 源订阅</h1>
+<div class="sub">GitHub Pages 托管 · 点击即可查看或订阅</div>
+
+<div class="card">
+  <div class="row"><span class="dot" style="background:#4d9fff"></span>
+    <div><div class="nm">月儿优化版.json</div><div class="meta">点播源配置（JSON）· 23 KB</div></div></div>
+  <div class="acts">
+    <a class="btn p" href="月儿优化版.json" target="_blank">查看</a>
+    <a class="btn" href="月儿优化版.json" download>下载</a>
+  </div>
+  <div class="url" id="u1">https://hbjhg1215.github.io/iptv-source/月儿优化版.json</div>
+</div>
+
+<div class="card">
+  <div class="row"><span class="dot" style="background:#38d39f"></span>
+    <div><div class="nm">玉山视频.txt</div><div class="meta">直播源清单（TXT）· 175 KB</div></div></div>
+  <div class="acts">
+    <a class="btn p" href="玉山视频.txt" target="_blank">查看</a>
+    <a class="btn" href="玉山视频.txt" download>下载</a>
+  </div>
+  <div class="url">https://hbjhg1215.github.io/iptv-source/玉山视频.txt</div>
+</div>
+
+<div class="card">
+  <div class="row"><span class="dot" style="background:#ffb44d"></span>
+    <div><div class="nm">4gtv_api.m3u</div><div class="meta">台湾频道列表（M3U）· 57 KB</div></div></div>
+  <div class="acts">
+    <a class="btn p" href="4gtv_api.m3u" target="_blank">查看</a>
+    <a class="btn" href="4gtv_api.m3u" download>下载</a>
+  </div>
+  <div class="url">https://hbjhg1215.github.io/iptv-source/4gtv_api.m3u</div>
+</div>
+
+<div class="note">以上地址可直接在 TVBox / 播放器里作为订阅地址使用。<br>仓库：github.com/hbjhg1215/iptv-source</div>
+</body>
+</html>
